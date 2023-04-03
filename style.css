@@ -1,0 +1,42 @@
+/* universal selector  */
+
+ /* *{
+    color: aqua;
+}  */
+
+/* type selector */
+/* h1,h2,h3{
+    color: blue;
+} */
+
+/* child selector */
+/* ol  li{
+    color:red;
+} */
+
+/* descendent selector */
+/* ol  li{
+    color:blueviolet;
+} */
+
+/* adjacent selector */
+/* ul  p{
+    color: yellow;
+} */
+ol ~ li{
+    color: red;
+}
+
+/* General sibling */
+
+/* ul~p{
+    color: red;
+} */
+
+/* for specfic */
+/* span + p{
+    color: aqua;
+} */
+/* p{
+    color:brown !important;
+} */
